@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="12" SoundbankVersion="140">
+	<RootPaths>
+		<ProjectRoot>C:\Users\justi\Documents\SemesterProjekt\Stylite\Stylite_WwiseProject\</ProjectRoot>
+		<SourceFilesRoot>C:\Users\justi\Documents\SemesterProjekt\Stylite\Stylite_WwiseProject\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>C:\Users\justi\Documents\SemesterProjekt\Stylite\Stylite_WwiseProject\GeneratedSoundBanks\Windows\</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>C:\Users\justi\Documents\SemesterProjekt\Stylite\Stylite_WwiseProject\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<DialogueEvents/>
+	<StreamedFiles/>
+	<MediaFilesNotInAnyBank/>
+	<SoundBanks>
+		<SoundBank Id="1355168291" Language="SFX" Hash="312043115">
+			<ObjectPath>Init</ObjectPath>
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+		</SoundBank>
+		<SoundBank Id="2469504869" Language="SFX" Hash="263061497">
+			<ObjectPath>\SoundBanks\Default Work Unit\Master_Soundbank</ObjectPath>
+			<ShortName>Master_Soundbank</ShortName>
+			<Path>Master_Soundbank.bnk</Path>
+			<IncludedEvents>
+				<Event Id="2932040671" Name="Play_Music" ObjectPath="\Events\Default Work Unit\Play_Music" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="33420516" Language="SFX">
+							<ShortName>a_Music\Shop\STYL_Transition-Shop_60bpm4-4_L2M_P1M.wav</ShortName>
+							<Path>SFX\a_Music\Shop\STYL_Transition-Shop_60bpm4-4_L2M_P1M_179463A7.wem</Path>
+						</File>
+						<File Id="163037466" Language="SFX">
+							<ShortName>a_Music\Menu\STYL_Music-Menu_107bpm4-4_L40M_P1M.wav</ShortName>
+							<Path>SFX\a_Music\Menu\STYL_Music-Menu_107bpm4-4_L40M_P1M_179463A7.wem</Path>
+						</File>
+						<File Id="360706668" Language="SFX">
+							<ShortName>a_Music\Shop\STYL_Music-Shop_60bpm4-4_L32M.wav</ShortName>
+							<Path>SFX\a_Music\Shop\STYL_Music-Shop_60bpm4-4_L32M_179463A7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3157003241" Name="Test" ObjectPath="\Events\Default Work Unit\Test" DurationType="OneShot" DurationMin="98.831757" DurationMax="98.831757">
+					<IncludedMemoryFiles>
+						<File Id="163037466" Language="SFX">
+							<ShortName>a_Music\Menu\STYL_Music-Menu_107bpm4-4_L40M_P1M.wav</ShortName>
+							<Path>SFX\a_Music\Menu\STYL_Music-Menu_107bpm4-4_L40M_P1M_179463A7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+			</IncludedEvents>
+			<StateGroups>
+				<StateGroup Id="3826569560" Name="Music_State" ObjectPath="\States\Default Work Unit\Music_State" GUID="{8385C237-2CD3-45C1-8399-83D5BAD7A1DD}">
+					<States>
+						<State Id="748895195" Name="None" ObjectPath="\States\Default Work Unit\Music_State\None" GUID="{22735205-9462-4DB4-8DD5-3EB264F41D46}"/>
+						<State Id="2607556080" Name="Menu" ObjectPath="\States\Default Work Unit\Music_State\Menu" GUID="{A08C6306-122D-4C75-8FC0-50C08660818E}"/>
+						<State Id="251412225" Name="Shop" ObjectPath="\States\Default Work Unit\Music_State\Shop" GUID="{12AAA79A-17C0-4207-8C95-3C42AEB77728}"/>
+						<State Id="375726501" Name="Mission" ObjectPath="\States\Default Work Unit\Music_State\Mission" GUID="{05F89BD3-AD20-4A18-A6DD-DFAC0DA2BE54}"/>
+						<State Id="2716678721" Name="Victory" ObjectPath="\States\Default Work Unit\Music_State\Victory" GUID="{71D6EC1A-FB5E-44CA-B4B5-391924A89306}"/>
+						<State Id="1593864692" Name="Defeat" ObjectPath="\States\Default Work Unit\Music_State\Defeat" GUID="{614AB341-977B-430F-9959-1DAC86AE8ED5}"/>
+					</States>
+				</StateGroup>
+			</StateGroups>
+		</SoundBank>
+	</SoundBanks>
+</SoundBanksInfo>

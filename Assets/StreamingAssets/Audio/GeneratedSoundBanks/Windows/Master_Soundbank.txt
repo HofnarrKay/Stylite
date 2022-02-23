@@ -1,0 +1,20 @@
+Event	ID	Name			Wwise Object Path	Notes
+	2932040671	Play_Music			\Default Work Unit\Play_Music	
+	3157003241	Test			\Default Work Unit\Test	
+
+State Group	ID	Name			Wwise Object Path	Notes
+	3826569560	Music_State			\Default Work Unit\Music_State	
+
+State	ID	Name	State Group			Notes
+	251412225	Shop	Music_State			
+	375726501	Mission	Music_State			
+	748895195	None	Music_State			
+	1593864692	Defeat	Music_State			
+	2607556080	Menu	Music_State			
+	2716678721	Victory	Music_State			
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	33420516	STYL_Transition-Shop_60bpm4-4_L2M_P1M	C:\Users\justi\Documents\SemesterProjekt\Stylite\Stylite_WwiseProject\.cache\Windows\SFX\a_Music\Shop\STYL_Transition-Shop_60bpm4-4_L2M_P1M_179463A7.wem		\Interactive Music Hierarchy\Default Work Unit\Music_System\Shop_Looper\STYL_Transition-Shop_60bpm4-4_L2M_P1M\STYL_Transition-Shop_60bpm4-4_L2M_P1M		529075
+	163037466	STYL_Music-Menu_107bpm4-4_L40M_P1M	C:\Users\justi\Documents\SemesterProjekt\Stylite\Stylite_WwiseProject\.cache\Windows\SFX\a_Music\Menu\STYL_Music-Menu_107bpm4-4_L40M_P1M_179463A7.wem		\Interactive Music Hierarchy\Default Work Unit\Music_System\Menu_Looper\STYL_Music-Menu_107bpm4-4_L40M_P1M\STYL_Music-Menu_107bpm4-4_L40M_P1M		2711408
+	360706668	STYL_Music-Shop_60bpm4-4_L32M	C:\Users\justi\Documents\SemesterProjekt\Stylite\Stylite_WwiseProject\.cache\Windows\SFX\a_Music\Shop\STYL_Music-Shop_60bpm4-4_L32M_179463A7.wem		\Interactive Music Hierarchy\Default Work Unit\Music_System\Shop_Looper\STYL_Music-Shop_60bpm4-4_L32M\STYL_Music-Shop_60bpm4-4_L32M		3335782
+
