@@ -1,4 +1,4 @@
-![](Images\Banner.png)(https://www.instagram.com/feliecho_official/)
+[![](Images\Banner.png)](https://www.instagram.com/feliecho_official/)
 Illustration was drawn by our Team member [Caroline Buchmann](https://www.artstation.com/feliecho_official)
 
 #### Stylite (Student Project Third Semester @S4G)
